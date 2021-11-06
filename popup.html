@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="utf-8">
+    <title>Search Plus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="js/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- オリジナルのcss読み込み -->
+    <link href="css/popup.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+   <header class="navbar navbar-dark">
+   </header>
+   <div class="container pt-3 pb-3" id="js-options-container">
+    <form id="jsform">
+    <div class="row">
+        <div class="col">
+          <p class="float-right">
+            <span id="js-time"></span><br />
+            <span id="rest-time"></span>
+         </p>
+        </div>
+    </div>
+    <div class="row">
+     <div class="col">
+        <table class="table table-bordered" style="table-layout: fixed;">
+            <tr>
+                <th style="width: 9em;"><span class="ja">検索サイト</span><span class="en">Searching site</span></th>
+                <td>
+                  <div class="form-group row">
+                    <div class="col-lg-5">
+                            <select class="form-control" id="aim">
+                                    <option value="https://www.google.com/search?q=" selected>Google</option>
+                            </select>
+                    </div>
+                  </div>
+                </td>
+           </tr>
+           <tr>
+              <th><span class="ja">追加ワード</span><span class="en">Addword</span></th>
+              <td>
+                <div class="form-group row">
+                  <div class="col-lg-5">
+                          <select class="form-control" id="addword">
+                                  <option value="" selected></option>
+                                  <option value="英語">英語</option>
+                                  <option value="C+%2B%2B">C++</option>
+                                  <option value="Python">Python</option>
+                                  <option value="Flutter">Flutter</option>
+                                  <option value="Lua">Lua</option>
+                          </select>
+                  </div>
+                </div>
+              </td>
+           </tr>
+           <tr>
+            <th><span class="ja">検索ワード</span><span class="en">Keyword</span></th>
+            <td>
+              <div class="col">
+                <input type="text" class="form-control" name="keyword" placeholder="Keyword">
+              </div>
+            </td>
+         </tr>
+          </table>
+     </div>
+    </div>
+    <div class="col text-center">
+        <input type="submit" class="btn btn-block btn-lg btn-success" value="検索"><span class="en">Search</span>
+        <span class="save-status" style="color:#fff;"></span>
+    </div>
+   </div>
+  </form>
+  </body>
+<!-- オリジナルのjs読み込み -->
+<script type="text/javascript" src="js/popup.js"></script>
+</html>

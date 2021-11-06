@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body{
+	width: 575px;
+	background: #000;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.en {
+	display: none;
+}
+
+.navbar {
+	height: 50px;
+	padding: .2rem 1rem;
+	border-bottom: 2px solid #fff;
+	background-image: url("/images/bg.gif");
+}
+#logs p {
+	font-size: 14px;
+	margin-bottom: 0rem;
+}
+.js-stop-badge, .js-run-badge {
+	display: none;
+}
+.badge-mystart {
+	background-color: #ee7103;
+	color: #fff;
+}
+table {
+	background: #fff !important;
+	color: #000;
+}
+#main-container {
+	display: none;
+}
+#noauth-container {
+	display: none;
+	padding: 2rem;
+	text-align: center;
+}
+
+.btn{
+	border:solid 1px #008020;
+	background-color: #000;
+	color:#fff;
+}
+
+.btn:hover{
+	border:solid 1px #00ca33;
+	background-color: #000000;
+	color:#fff;
+}
+
+#start-btn{
+	border:solid 1px #a00000;
+	background-color: rgb(0, 0, 0);
+	color:#fff;
+}
+
+#start-btn:hover{
+	border:solid 1px #ff0000;
+	background-color: #000000;
+	color:#fff;
+}
+
+#stop-btn{
+	border:solid 1px #002da8;
+	background-color: rgb(0, 0, 0);
+	color:#fff;
+}
+
+#stop-btn:hover{
+	border:solid 1px #00a2ff;
+	background-color: #000000;
+	color:#fff;
+}
+
+tbody{
+	background: #000000;
+	color:#fff;
+	border: 1px #00a2ff solid;
+}
+
