@@ -35,11 +35,27 @@
                   <div class="form-group row">
                     <div class="col-lg-5">
                             <select class="form-control" id="aim">
-                                    <option value="https://www.google.com/search?q=" selected>Google</option>
+                                    <option value="" selected>Google(Default)</option>
+                                    <option value="&gl=us&hl=en" selected>Google(US)</option>
                             </select>
                     </div>
                   </div>
                 </td>
+           </tr>
+            <tr>
+              <th style="width: 9em;"><span class="ja">対象サイト</span><span class="en">Searching site</span></th>
+              <td>
+                <div class="form-group row">
+                  <div class="col-lg-5">
+                          <select class="form-control" id="obj_site">
+                                  <option value="" selected>All sites</option>
+                                  <option value="+site%3Agithub.com">github.com</option>
+                                  <option value="+site%3Astackoverflow.com++-inurl%3Arads">stackoverflow.com</option>
+                                  <option value="+site%3Aqiita.com">qiita.com</option>
+                          </select>
+                  </div>
+                </div>
+              </td>
            </tr>
            <tr>
               <th><span class="ja">追加ワード</span><span class="en">Addword</span></th>
@@ -58,14 +74,20 @@
                 </div>
               </td>
            </tr>
-           <tr>
-            <th><span class="ja">検索ワード</span><span class="en">Keyword</span></th>
+           <th><span class="ja">除外ワード</span><span class="en">Keyword</span></th>
+            <td>
+              <div class="col">
+                <input type="text" class="form-control" name="exceptword" placeholder="Not including">
+              </div>
+            </td>
+           </tr>
+           <th><span class="ja">検索ワード</span><span class="en">Keyword</span></th>
             <td>
               <div class="col">
                 <input type="text" class="form-control" name="keyword" placeholder="Keyword">
               </div>
             </td>
-         </tr>
+           </tr>
           </table>
      </div>
     </div>

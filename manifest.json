@@ -3,8 +3,8 @@
     "scripts": [ "js/jquery.min.js"]
  },
   "name": "Search Plus",
-  "description": "Make you search stressful!",
-  "version": "1.0",
+  "description": "search_plus is a Google Chrome Extension to help you search rapidly mainly for software engineer.",
+  "version": "1.1",
   "manifest_version": 2,
   "icons": {
     "16": "images/icon16.png",
