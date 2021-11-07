@@ -2,7 +2,7 @@
 
 *search_plus is a Google Chrome Extension to help you search rapidly mainly for software engineer.*
 
-![demo](https://github.com/ottomossei/search_plus/blob/main/images/popup.gif)
+<img src="https://github.com/ottomossei/search_plus/blob/main/images/popup.gif" width="400">
 
 ### Installation Instructions
 1. Download this repo as a [ZIP file from GitHub](https://github.com/ottomossei/search_plus/archive/main.zip).
